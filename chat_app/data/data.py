@@ -3,7 +3,7 @@
 import json
 import os
 
-from llmstring_data import data_to_string
+from .llmstring_data import data_to_string
 
 DEFAULT_DATA_PATH = "chat_app/data/COMBINED_DATA.json"
 DEFAULT_CATEGORIES_PATH = "chat_app/data/categories_edited.json"
