@@ -34,6 +34,7 @@ class WordWare:
             for line in r.iter_lines():
                 if line:
                     content = json.loads(line.decode('utf-8'))
+                    print("CONTENT: ", content)
                     value = content['value']
                     # # We can print values as they're generated
                     # if value['type'] == 'generation':
@@ -51,7 +52,9 @@ class WordWare:
                         # print("\nFINAL OUTPUTS:")
                         # print(json.dumps(value, indent=4))
                         return value
-        return None
+                    elif 'state' in value and value['state'] == "error":
+                        print("ERROR: ", value)
+                        # print(inputs["current_eligibility"])
 
     def _preprocess_data(self, data):
         new_data = data.copy()
@@ -73,16 +76,19 @@ class WordWare:
         SUPCATEGORY_PROMPT_NAME = "accelSF/Classify Category"
         ELIG_PROMPT_NAME = "accelSF/Classify Eligibility"
         CATEGORY_PROMPT_NAME = "accelSF/Classify SubCategory"
+        QUERY_ELIG_PROMPT_NAME = "accelSF/Query Eligibility"
 
         # print("RAW VALUES: ", values)
         values["new_supercategories"] = self._parse_categories_resp(
             values[SUPCATEGORY_PROMPT_NAME]["new_supercategories"]) if SUPCATEGORY_PROMPT_NAME in values else {}
         values["new_categories"] = self._parse_categories_resp(
             values[CATEGORY_PROMPT_NAME]["new_categories"]) if CATEGORY_PROMPT_NAME in values else {}
-        values["affirmative"] = bool(
+        values["category_affirmative"] = bool(
             values[CATEGORY_PROMPT_NAME]["affirmative"]) if CATEGORY_PROMPT_NAME in values else None
-        values["new_eligibilities"] = self._parse_categories_resp(
-            values[ELIG_PROMPT_NAME]["new_eligibilities"]) if ELIG_PROMPT_NAME in values else {}
+        values["new_eligibilities"] = self._parse_eligibilities_resp(
+            values[ELIG_PROMPT_NAME]["new_eligibilities"]) if ELIG_PROMPT_NAME in values else []
+        values["eligibility_affirmative"] = bool(
+            values[QUERY_ELIG_PROMPT_NAME]["affirmative"]) if QUERY_ELIG_PROMPT_NAME in values else None
 
         return values
 
@@ -92,10 +98,19 @@ class WordWare:
         result = {category: int(perc) for category, perc in matches}
         return result
 
+    def _parse_eligibilities_resp(self, resp):
+        # matches = re.findall(r'([a-zA-Z ]*?)', resp)
+        matches = resp.split(",")
+        print("MATCHES", matches)
+        result = [elig.strip() for elig in matches]
+        return result
+
     def extract_supercategory(self, data: ExtractSupercategoryInput):
+        print("extracting data")
         prompt_id = "ba587aa9-64d9-442c-9a27-9b34652efc95"
         processed_data = self._preprocess_data(data)
         resp = self._make_request(prompt_id, processed_data)
+        print("RESP: ", resp)
         if resp:
             values = self._parse_response_value(resp["values"])
             print("VALUES: ", values)

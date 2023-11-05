@@ -1,0 +1,8 @@
+{'accelSF/Classify Category':
+     {'new_supercategories': 'Family, 90%\nHousing, 70%\nNone',
+         '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'Family, 90%\nHousing, 70%\nNone'},
+     '0aa1b665-3a0d-4b6d-a298-c82355b01567':
+     {'new_supercategories': 'Family, 90%\nHousing, 70%\nNone', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'Family, 90%\nHousing, 70%\nNone'}, 'accelSF/Classify Eligibility':
+     {'new_eligibilities': 'Families with children below 18 years old, Low-Income, San Francisco Residents', 'e6fecdea-3182-4542-a196-096c19b04417':
+      'Families with children below 18 years old, Low-Income, San Francisco Residents'}, '6234a6a2-e183-4d14-ac4a-81262cfd1ae2':
+     {'new_eligibilities': 'Families with children below 18 years old, Low-Income, San Francisco Residents', 'e6fecdea-3182-4542-a196-096c19b04417': 'Families with children below 18 years old, Low-Income, San Francisco Residents'}, 'new_supercategories': {'Family': 90, 'Housing': 70}, 'new_categories': {}, 'category_affirmative': None, 'new_eligibilities': {}, 'eligibility_affirmative': None}

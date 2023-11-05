@@ -40,6 +40,8 @@ class DataSet:
                     self.categories_to_querycat[cat].extend(querycats)
                     self.querycat_to_category.update(
                         {qcat: cat for qcat in querycats})
+                    # initialized herexws
+                    self.category_to_services[cat] = []
 
             self.eligibilities = self.data["facets"]["eligibilities"]
             self.supercategories = list(self.categories_map.keys())
@@ -108,9 +110,6 @@ class DataSet:
                 list(self.categories_map[sup].keys()) if sup in self.categories_map else [])
         return categories
 
-    def is_valid_supercategory(self, supercategory):
-        return supercategory in self.supercategories
-
     def get_categories_for_supercategory(self, supercategory):
         return self.categories_map[supercategory].keys() if self.is_valid_supercategory(supercategory) else []
 
@@ -120,6 +119,30 @@ class DataSet:
     def get_ordered_list_of_eligibilities(self, categories):
         potential_elig = self.get_all_eligibilities_for_categories(categories)
         return sorted(potential_elig, key=lambda elig: len(self.eligibilities_to_services[elig]), reverse=True)
+
+    def get_candidate_services(self, categories, eligibilities):
+        cand_services = []
+        for cat in categories:
+            cand_services.extend(self.category_to_services[cat])
+
+        eligible_services = []
+        for cand_id in cand_services:
+            serv = self.get_service_by_id(cand_id)
+            if serv:
+                required_elig = self.get_eligibilities_for_service(cand_id)
+                if any(e in required_elig for e in eligibilities):
+                    eligible_services.append(cand_id)
+
+        return eligible_services, cand_services
+
+    def is_valid_supercategory(self, supercategory):
+        return supercategory in self.supercategories
+
+    def is_valid_category(self, category):
+        return category in self.categories
+
+    def is_valid_eligibity(self, eligibility):
+        return eligibility in self.eligibilities
 
 
 if __name__ == '__main__':
