@@ -78,3 +78,66 @@ State:
  current_task: recommend
 ==========
 
+RETURNED EXTRACTED INFO: {'accelSF/Classify Category': {'new_supercategories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, '0aa1b665-3a0d-4b6d-a298-c82355b01567': {'new_supercategories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, 'accelSF/Classify Eligibility': {'new_eligibilities': 'indecisive, unsure', 'e6fecdea-3182-4542-a196-096c19b04417': 'indecisive, unsure'}, '9d63841a-76d8-4194-896a-12b7dba504d2': {'new_eligibilities': 'indecisive, unsure', 'e6fecdea-3182-4542-a196-096c19b04417': 'indecisive, unsure'}, 'new_supercategories': {}, 'new_categories': {}, 'category_affirmative': None, 'new_eligibilities': ['indecisive', 'unsure'], 'eligibility_affirmative': None}
+extracted supercategories: {} 
+extracted eligibilities: ['indecisive', 'unsure']
+NOT VALID ELIGIBILITY
+NOT VALID ELIGIBILITY
+extracted categories: {} 
+
+=========
+State: 
+ super categories: {}
+ categories:
+              {}
+ eligibilities: []
+ current_task: conversation
+==========
+
+RETURNED EXTRACTED INFO: {'accelSF/Classify Category': {'new_supercategories': 'Homelessness, 90%\nSupport, 70%\nOthers, 60%', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'Homelessness, 90%\nSupport, 70%\nOthers, 60%'}, '0aa1b665-3a0d-4b6d-a298-c82355b01567': {'new_supercategories': 'Homelessness, 90%\nSupport, 70%\nOthers, 60%', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'Homelessness, 90%\nSupport, 70%\nOthers, 60%'}, 'accelSF/Classify Eligibility': {'new_eligibilities': 'homeless', 'e6fecdea-3182-4542-a196-096c19b04417': 'homeless'}, '9d63841a-76d8-4194-896a-12b7dba504d2': {'new_eligibilities': 'homeless', 'e6fecdea-3182-4542-a196-096c19b04417': 'homeless'}, 'new_supercategories': {'Homelessness': 90, 'Support': 70, 'Others': 60}, 'new_categories': {}, 'category_affirmative': None, 'new_eligibilities': ['homeless'], 'eligibility_affirmative': None}
+extracted supercategories: {'Homelessness': 90, 'Support': 70, 'Others': 60} 
+extracted eligibilities: ['homeless']
+NOT VALID ELIGIBILITY
+extracted categories: {} 
+QUERY_SUB: ['Homelessness Needs']
+
+=========
+State: 
+ super categories: {'Homelessness': 90, 'Support': 70, 'Others': 60}
+ categories:
+              {'Homelessness Needs': 67.5}
+ eligibilities: []
+ current_task: query_subcategory
+==========
+
+RETURNED EXTRACTED INFO: {'accelSF/Classify Category': {'new_supercategories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, '0aa1b665-3a0d-4b6d-a298-c82355b01567': {'new_supercategories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, 'accelSF/Classify Eligibility': {'new_eligibilities': 'unsure', 'e6fecdea-3182-4542-a196-096c19b04417': 'unsure'}, '9d63841a-76d8-4194-896a-12b7dba504d2': {'new_eligibilities': 'unsure', 'e6fecdea-3182-4542-a196-096c19b04417': 'unsure'}, 'new_supercategories': {}, 'new_categories': {}, 'category_affirmative': None, 'new_eligibilities': ['unsure'], 'eligibility_affirmative': None}
+extracted supercategories: {} 
+extracted eligibilities: ['unsure']
+NOT VALID ELIGIBILITY
+extracted categories: {} 
+
+=========
+State: 
+ super categories: {}
+ categories:
+              {}
+ eligibilities: []
+ current_task: conversation
+==========
+
+RETURNED EXTRACTED INFO: {'accelSF/Classify Category': {'new_supercategories': 'Housing, 90%\nFinancial, 80%\nNone', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'Housing, 90%\nFinancial, 80%\nNone'}, '0aa1b665-3a0d-4b6d-a298-c82355b01567': {'new_supercategories': 'Housing, 90%\nFinancial, 80%\nNone', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'Housing, 90%\nFinancial, 80%\nNone'}, 'accelSF/Classify Eligibility': {'new_eligibilities': '- In need of financial assistance\n- Facing potential homelessness', 'e6fecdea-3182-4542-a196-096c19b04417': '- In need of financial assistance\n- Facing potential homelessness'}, '9d63841a-76d8-4194-896a-12b7dba504d2': {'new_eligibilities': '- In need of financial assistance\n- Facing potential homelessness', 'e6fecdea-3182-4542-a196-096c19b04417': '- In need of financial assistance\n- Facing potential homelessness'}, 'new_supercategories': {'Housing': 90, 'Financial': 80}, 'new_categories': {}, 'category_affirmative': None, 'new_eligibilities': ['- In need of financial assistance\n- Facing potential homelessness'], 'eligibility_affirmative': None}
+extracted supercategories: {'Housing': 90, 'Financial': 80} 
+extracted eligibilities: ['- In need of financial assistance\n- Facing potential homelessness']
+NOT VALID ELIGIBILITY
+extracted categories: {} 
+QUERY_SUB: ['General Housing', 'Low-Income Housing', 'Housing Rights']
+
+=========
+State: 
+ super categories: {'Housing': 90}
+ categories:
+              {'General Housing': 67.5, 'Safe Housing': 67.5, 'Subsidized Housing': 67.5, 'Low-Income Housing': 67.5, 'Housing Rights': 67.5, 'Finding Housing': 67.5, 'Transitional Housing for Women': 67.5}
+ eligibilities: []
+ current_task: query_subcategory
+==========
+

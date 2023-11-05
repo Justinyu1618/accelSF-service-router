@@ -48,6 +48,7 @@ class ChatMain:
             "num_elig_queries": 0,
             "current_recommendations": ""
         }
+        self.next_input = ""
 
     def run_output(self, output: str):
         print(f"> {output}\n")
@@ -58,16 +59,23 @@ class ChatMain:
         self.state['latest_question'] = output
         self.state['latest_msg'] = resp
 
-    def run(self):
-        msg = self.run_output("Hello, what can I help you with?")
-        while True:
-            self.lmm_extract_information(msg)
+    def run(self, next_input):
+        # msg = self.run_output("Hello, what can I help you with?")
+        # while True:
+        # if (not self.next_input):
+        #     continue
 
-            task = self.set_current_task()
-            next_resp = self.lmm_get_response(task, msg)
+        msg = next_input
+        # self.next_input = ""
 
-            self.print_state()
-            msg = self.run_output(next_resp)
+        self.lmm_extract_information(msg)
+
+        task = self.set_current_task()
+        next_resp = self.lmm_get_response(task, msg)
+
+        self.print_state()
+        # msg = self.run_output(next_resp)
+        return next_resp
 
     def set_current_task(self):
         task = "conversation"
@@ -247,4 +255,4 @@ class ChatMain:
 
     def print_state(self):
         log(f"""\n=========\nState: \n super categories: {self.state['current_supercategories']}\n categories:
-              {self.state['current_categories']}\n eligibilities: {self.state['current_eligibilities']}\n current_task: {self.state['current_task']}\n==========\n""") 
+              {self.state['current_categories']}\n eligibilities: {self.state['current_eligibilities']}\n current_task: {self.state['current_task']}\n==========\n""")
