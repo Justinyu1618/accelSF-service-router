@@ -4,4 +4,4 @@ Problem Statement: People in need of services are not being connected to proper 
 
 Demo setup:
 
-Future Plan:
+Future Plan: Work with Shelter Tech to integrate with the SF Shelter Guide and Sf.gov website.
