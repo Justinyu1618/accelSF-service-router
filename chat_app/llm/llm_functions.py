@@ -1,15 +1,12 @@
 
 
-from typing import Literal, TypeAlias, TypedDict
+from typing import Literal, TypedDict
 from chat_app.llm.fn_types import ExtractSupercategoryInput, GetResponseInput
 from chat_app.llm.wordware import WordWare
 
 
-LMMBackends: TypeAlias = 'Literal["wordware"]'
-
-
 class LMMFunctions:
-    def __init__(self, backend: LMMBackends = "wordware"):
+    def __init__(self, backend = "wordware"):
         if (backend == "wordware"):
             self.backend = WordWare()
         pass

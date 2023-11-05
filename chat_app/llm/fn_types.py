@@ -1,4 +1,4 @@
-from typing import TypedDict
+from typing import TypedDict, Union
 
 
 class ExtractSupercategoryInput(TypedDict):
@@ -19,6 +19,6 @@ class GetResponseInput(TypedDict):
     current_eligibilities: list[str]
     latest_msg: str
     task: str
-    all_supercategories: list[str] | None
-    query_subcategories: list[str] | None
-    query_eligibilities: list[str] | None
+    all_supercategories: Union[list[str] , None]
+    query_subcategories: Union[list[str] , None]
+    query_eligibilities: Union[list[str] , None]

@@ -6421,15 +6421,15 @@ Artists and arts organizations serve as agents of democratic involvement, innova
 
 Services: Legal workshops and lawyer referrals for the arts community 
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: support@calawyersforthearts.org  or alma.robinson@calawyersforthearts.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 2 Marina Blvd., San Francisco, CA, USA, 94123
@@ -6437,9 +6437,9 @@ Here are the addresses associated with the service:
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14157751143 - Fax+14157757200 - (888) 775-8995
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Friday: Open from 10:00 to 5:00
 Thursday: Open from 10:00 to 17:00
@@ -6452,24 +6452,24 @@ The service name is California Department of Social Services .
 Here is a description of the service it offers:
 The California Department of Social Services supports programs which serve more than eight million people across our state. This work, accomplished everyday, provides stability, opportunity and promotes wellness in communities throughout California.
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: piar@dss.ca.gov
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 744 P Street, Sacramento, CA, USA, 95814
 
 The service provides services under the following categories: 
 ['Technology', 'Homelessness Essentials']
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +19166518848 - Main+18009525253 - Toll Free+18009528349 - TTY
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Sunday: Open from :0 to 23:59
 Saturday: Open from :0 to 23:59
@@ -6484,24 +6484,24 @@ The service name is EyeCare America.
 Here is a description of the service it offers:
 EyeCare America offers medical eye exams for free including a Seniors Program and a Glaucoma Program. 
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: eyecareamerica@aao.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 655 Beach Street, San Francisco, CA, USA, 94109
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +18778876327 - Phone+14155618567 - Fax
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Friday: Open from 8:00 to 12:00
 Wednesday: Open from 8:00 to 12:00
@@ -6515,24 +6515,24 @@ Here is a description of the service it offers:
 The National Alliance on Mental Illness in San Francisco (NAMI SF)  is a non-profit organization that helps the community's voice on mental illness through support, education, and advocacy. 
 
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: info@namisf.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, NAMI.
 Here are the addresses associated with the service:
 1388 Sutter Street (MAILING ADDRESS), San Francisco, CA, USA, 94109
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14152370039 - Help Line
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Saturday: Open from 12:00 to 20:00
 Monday: Open from 8:30 to 23:00
@@ -6546,24 +6546,24 @@ The service name is Jewish Family and Children's Services (JFCS).
 Here is a description of the service it offers:
 Founded in 1850, the Jewish Family and Children's Services (JFCS) is an organization with over 40 programs that aim to help children, families and adults living in the San Francisco Bay Area who are facing personal crises or challenges. JFCS helps ensure that the poor, the elderly, and the sick will be cared for and are not alone.
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: admin@jfcs.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 2150 Post Street, San Francisco, CA, USA, 94115
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14153455060 - Rhoda Goldman Plaza+14154493805 - Disabilities Services+14154492900 - Emigres+14154491200 - Voice+18445911796 - Fax+14153592494 - Adoption Connection+14154493777 - Seniors at Home+14153592477 - YouthFirst+14154493717 - Holocaust Center+14153592454 - Parents Place
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Friday: Open from 8:30 to 17:00
 Thursday: Open from 8:30 to 17:00
@@ -6579,15 +6579,15 @@ CYC in San Francisco provides behavioral health, early & intensive intervention,
 
 
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: hello@cycsf.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, CYC.
 Here are the addresses associated with the service:
 1038 Post Street, San Francisco, CA, USA, 94109
@@ -6598,9 +6598,9 @@ Here are the addresses associated with the service:
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14157752636 - Main Office Phone+14155501151 - Bayview Branch Office+14157529675 - Richmond Branch Office+14159881862 - Chinatown Branch Office+14153494867 - Excelsior Office+14157751345 - Fax
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Monday: Open from 9:30 to 18:00
 Tuesday: Open from 9:30 to 18:00
@@ -6613,24 +6613,24 @@ The service name is Lower Polk Tenant Landlord Clinic.
 Here is a description of the service it offers:
 The Lower Polk Tenant Landlord Clinic (TLC) is a unique interdisciplinary program designed to keep residential tenants and small businesses stably sited. If you live in the Lower Polk or surrounding areas, or operate a small business in the Lower Polk or surrounding areas, and are experiencing problems with your lease, you are urged to contact the TLC now at info@lptlc.org.
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: info@lptlc.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 1170 Sutter Street, San Francisco, CA, USA, 94109
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14157828940 - 
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Friday: Open from 9:00 to 5:00
 Tuesday: Open from 9:00 to 17:00
@@ -6648,15 +6648,15 @@ San Francisco Senior Center has two sites: the Aquatic Park Center, located on t
 
 
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: sfseniorcenter@sequoialiving.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, Formerly Northern California Presbyterian Homes and Services (NCPHS).
 Here are the addresses associated with the service:
 890 Beach Street, San Francisco, CA, USA, 94109
@@ -6664,9 +6664,9 @@ Here are the addresses associated with the service:
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14157754020 - Aquatic Park Center (Fax)+14157717950 - Downtown Center (Voice)+14157751866 - Aquatic Park Center (Voice)
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Friday: Open from 9:30 to 15:30
 Wednesday: Open from 9:30 to 15:30
@@ -6683,24 +6683,24 @@ SF CLOUT is a union-based project under the SF Labor Council. They utilize the o
 
 
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: tom@sflaborcouncil.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, SF Labor Council.
 Here are the addresses associated with the service:
 1188 Franklin Street, San Francisco, CA, USA, 94109
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14157404461 - Cell for Kim Tavaglione, Executive Director +14153362898 - Cell for Adam Mehis, Campaign Director+14154404809 - Operator +14154404809 - Cell for Emily Nelson, Communications and Sr. Asst. to the Director+14156087535 - Cell for Tom Ryan, Community Services Director
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Sunday: Open from 9:00 to 17:00
 
@@ -6713,24 +6713,24 @@ SEACC has programs that support self-sufficiency, economic viability, advocacy, 
 
 
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: info@seaccusa.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, SEACC.
 Here are the addresses associated with the service:
 875 O’Farrell Street, San Francisco, CA, USA, 94109
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14158852743 - Voice
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Monday: Open from 8:00 to 17:00
 Thursday: Open from 8:00 to 17:00
@@ -6744,15 +6744,15 @@ Here is a description of the service it offers:
 Multi-service organization with Food Pantry services. For people 60 years old or older. 
 
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: info@sfmfoodbank.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, All services listed require handouts..
 Here are the addresses associated with the service:
 900 Pennsylvania Avenue, San Francisco, CA, USA, 94107
@@ -6773,9 +6773,9 @@ Here are the addresses associated with the service:
 
 The service provides services under the following categories: 
 ['Food']
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14152821900 - Phone
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 
 ------------------------------------------------------------
@@ -6785,24 +6785,24 @@ Adoption Connection offers options counseling, ongoing support, legal advice and
 
 They welcome couples and individuals of all ages, religions, ethnic backgrounds, sexual orientations, gender identities and gender expressions.
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: info@adoptionconnection.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 1710 Scott St, San Francisco, CA, USA, 94115
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +18009729225 - Call for Pregnancy Services+14153554636 - Text for Pregnancy Services+14153592494 - General Questions+14153592494 - Call for Adoption Services
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Friday: Open from 9:00 to 17:00
 Thursday: Open from 9:00 to 17:00
@@ -6817,24 +6817,24 @@ Serves clients who experience chronic and/or severe mental illnesses including m
 
 Hyde Street Community Services provides an array of services built on a model of comprehensive care. Using a team approach to treatment, a multi-disciplinary staff works together to address the often-complex problems of the client population. Adhering to a philosophy of providing integrated services, the Clinic welcomes individuals with acute or chronic symptoms, and individuals with co-morbid substance abuse problems.
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: info@hscssf.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 815 Hyde St, San Francisco, CA, USA, 94109
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14156735700 - Voice
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Wednesday: Open from 9:00 to 17:00
 Friday: Open from 9:00 to 17:00
@@ -6847,24 +6847,24 @@ The service name is Saint Francis Memorial Hospital.
 Here is a description of the service it offers:
 Saint Francis Memorial Hospital is a hospital that offers emergency services where people can seek immediate help for serious injuries or illnesses. Saint Francis Memorial Hospital also has urgent care facilities open 365 days a year. Each location is a full-service urgent care clinic.  
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: None
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, Dignity Health.
 Here are the addresses associated with the service:
 900 Hyde St, San Francisco, CA, USA, 94109
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +18448307254 - Voice
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Wednesday: Open from :0 to 23:59
 Monday: Open from :0 to 23:59
@@ -6879,24 +6879,24 @@ The service name is Mary Elizabeth Inn.
 Here is a description of the service it offers:
 Housing, food assistance and support services to low-income women. Women served by The Mary Elizabeth Inn include those who are homeless, have a history of substance abuse, have physical and mental disabilities.
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: info@meinn.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, Affiliated with the United Methodist Women.
 Here are the addresses associated with the service:
 1040 Bush Street, San Francisco, CA, USA, 94109
 
 The service provides services under the following categories: 
 ['Food']
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14156736768 - Voice+14154417451 - Fax
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Tuesday: Open from :0 to 23:59
 Wednesday: Open from :0 to 23:59
@@ -6917,24 +6917,24 @@ They provide companionship to those who are lonely and isolated and they attend 
 
 Offering outdoor services in Christian and Jewish faiths. 
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: office@sfnightministry.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, Night Shift.
 Here are the addresses associated with the service:
 1031 Franklin St., San Francisco, CA, USA, 94109
 
 The service provides services under the following categories: 
 ['Health & Medical']
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +18444673473 - Care Line+14159357862 - Office
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Friday: Open from 20:00 to 4:00
 Saturday: Open from 20:00 to 4:00
@@ -6949,24 +6949,24 @@ The service name is San Francisco Dental Society.
 Here is a description of the service it offers:
 A telephone referral service that provides names and phone numbers of dentists according to neighborhood served, foreign languages spoken, emergency hours, and who will accept Medi-Cal. Also refers seniors (age 60 or over) with a fixed income and lack of dental insurance to dentists who will provide comprehensive services for approximately 15% below their standard fees.
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: info@sfds.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 2143 Lombard St, San Francisco, CA, USA, 94123
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14159287337 - Voice+14159285297 - Fax
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Thursday: Open from 8:30 to 17:00
 Monday: Open from 8:30 to 17:00
@@ -6982,24 +6982,24 @@ Since their founding in 2004, Project Homeless Connect (PHC) is an organization 
 - currently experiencing homelessness
 - transitioning from homelessness to housing
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: edc@projecthomelessconnect.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, .
 Here are the addresses associated with the service:
 1031 Franklin Street, Floor 2, San Francisco, CA, USA, 94109
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: 1-855-588-7968 - Resource Line
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Tuesday: Open from 9:30 to 15:30
 Wednesday: Open from 9:30 to 15:30
@@ -7009,24 +7009,24 @@ The service name is Gender Spectrum.
 Here is a description of the service it offers:
 Gender Spectrum works to create gender sensitive and inclusive environments for all children and teens.
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: Online form - www.genderspectrum.org/about/contact
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 1271 Washington Avenue, San Leandro, CA, USA, 94577
 
 The service provides services under the following categories: 
 ['Health & Medical']
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: 
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Monday: Open from 9:00 to 17:00
 Tuesday: Open from 9:00 to 17:00
@@ -7043,24 +7043,24 @@ Here is a description of the service it offers:
 
 Planned Parenthood is one of the nation’s leading providers of high-quality, affordable health care, and the nation’s largest provider of sex education. With or without insurance, you can always go to them for your health care.
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: None
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 1522 Bush Street, San Franisco, CA, USA, 94109
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14158211282 - Voice+14158219047 - Fax+18002307526 - Find a Health Center
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Friday: Open from 8:30 to 17:00
 Tuesday: Open from 8:30 to 19:00
@@ -7074,24 +7074,24 @@ The service name is Maxine Hall Health Center (San Francisco Health Network).
 Here is a description of the service it offers:
 The Maxine Hall Health Center provides primary care health services for all ages, including a primary care clinic, a walk-in clinic, an HIV clinic, and a women's clinic. Medical drop-ins are seen every morning, Monday to Friday, on a first-come, first-serve basis. The clinic opens at 8 am daily and only sees the first 10 patients. Sick care on drop-in basis only, no appointments allowed.
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: dph.helpdesk@sfdph.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 1301 Pierce St , San Francisco, CA, USA, 94115
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +16282177509 - Fax+16282175400 - Voice
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Tuesday: Open from 8:00 to 17:00
 Thursday: Open from 8:00 to 17:00
@@ -7105,24 +7105,24 @@ Here is a description of the service it offers:
 Provides hospice services for persons with terminal illness, including referrals to a five-bed residential hospice program, as well as bereavement counseling. Services are provided on a sliding scale basis.
 By the Bay Health will be a resource and provider of hospice, home health care, and palliative care services necessary for obtaining quality of life and will set the standard for compassionate care and support in the Bay Area.
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: 
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, Bay Area Skilled Home Health Care.
 Here are the addresses associated with the service:
 180 Redwood Street, San Francisco, CA, USA, 94102
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14159272273 - General Inquiries+14156265900 - Voice+14155265699 - Grief Support
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Thursday: Open from 8:30 to 17:00
 Friday: Open from 8:30 to 17:00
@@ -7140,24 +7140,24 @@ If you are a family with at least one child under the age of 18 and are seeking 
 Please visit one of these Access Points to be screened for services: http://hsh.sfgov.org/services/family-coordinated-entry/
 
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: info@raphaelhouse.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 1065 Sutter Street, San Francisco, CA, USA, 94109
 
 The service provides services under the following categories: 
 ['Housing']
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14153457200 - Phone+14153457299 - Fax
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Thursday: Open from 9:00 to 17:00
 Tuesday: Open from 9:00 to 17:00
@@ -7172,24 +7172,24 @@ Korean Center Inc. is open to people of all ethnicities. It offers many opportun
 
 Services: Senior Meal Delivery, Translated Resources, Senior Classes, Youth Summer Camp, Events, Workshops
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: info@koreancentersf.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 1362 Post St, San Francisco, CA, USA, 94109
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14154411881 - Voice
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Tuesday: Open from 9:00 to 16:00
 Wednesday: Open from 9:00 to 16:00
@@ -7203,24 +7203,24 @@ Here is a description of the service it offers:
 Temenos Catholic Worker works with homeless street youth providing pastoral care, food, socks, and sacramental ministry. We believe all need non-judgment in their lives, and we serve every one. Temenos meets people where they are with out regard to race, religion or sexual orientation.
 
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: temenos@gmail.com
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 1618 Polk Street, San Francsico, CA, USA, 94109
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14153052124 - Voice
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Tuesday: Open from :0 to 23:59
 Thursday: Open from :0 to 23:59
@@ -7237,24 +7237,24 @@ JCYC's mission is to cultivate and enrich the lives of children and youth from d
 
 Through a continuum of services, JCYC programs can support children and youth from the time they start pre-school until they are ready to move on to college.  In addition to providing direct services, JCYC has also organized and continues to lead some of the largest and most successful youth collaborations in San Francisco.
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: info@jcyc.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 2012 Pine St, San Francisco, CA, USA, 94115
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14152027900 - Voice+14153461948 - Fax
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Friday: Open from 9:00 to 17:30
 Wednesday: Open from 9:00 to 17:30
@@ -7269,15 +7269,15 @@ The Mission of Cross Cultural Family Center is to provide child development serv
 
 ​
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: info@crossculturalsf.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 1347 Pierce St, San Francisco, CA, USA, 94115
@@ -7285,9 +7285,9 @@ PO Box 15366,  San Francisco, CA, CA, USA, 94115
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14159285178 - Voice
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Wednesday: Open from 9:00 to 17:00
 Monday: Open from 9:00 to 17:00
@@ -7313,24 +7313,24 @@ The Career Center maintains computers for public use including access to printer
 
  Services: Computer and printer access, Job postings, and job search assistance.
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: info@successcenters.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, .
 Here are the addresses associated with the service:
 1449 Webster St., San Francisco, CA, USA, 94115
 
 The service provides services under the following categories: 
 ['Technology', 'Homelessness Essentials']
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14155497000 - 
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Friday: Open from 9:00 to 12:00
 Tuesday: Open from 9:00 to 18:00
@@ -7346,24 +7346,24 @@ Jones Memorial United Methodist Church in San Francisco is a place for worship t
 
 
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: office@jonesumc.com
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 1975 Post Street, San Francisco, CA, USA,  94115
 
 The service provides services under the following categories: 
 ['Food']
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14159217653 - Voice
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Tuesday: Open from 9:00 to 16:00
 Friday: Open from 9:00 to 16:00
@@ -7377,15 +7377,15 @@ Felton Institute offers a wide range of social services to children and adults. 
 
 Felton Institute places special emphasis on the needs of low-income families, children, the elderly and people living with disabilities
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: info@felton.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 1500 Franklin Street, San Francisco, CA, USA, 94109
@@ -7404,9 +7404,9 @@ Here are the addresses associated with the service:
 
 The service provides services under the following categories: 
 ['Health & Medical']
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14154747310 - Phone+14159313773 - Fax
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Tuesday: Open from 8:00 to 15:15
 Thursday: Open from 8:00 to 15:15
@@ -7419,15 +7419,15 @@ The service name is Kimochi, Inc..
 Here is a description of the service it offers:
 Established in 1971 in San Francisco’s historic Japantown neighborhood, Kimochi is a multi-senior service agency with a mission to provide a continuum of culturally-sensitive programs and services to all seniors and their families to preserve their dignity and independence, with a focus on the Japanese American and Japanese speaking community.
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: kimochikai@kimochi-inc.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 1715 Buchanan Street, San Francisco, CA, USA, 94115
@@ -7437,9 +7437,9 @@ Here are the addresses associated with the service:
 
 The service provides services under the following categories: 
 ['Food']
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14159312294 - Voice
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Wednesday: Open from 9:00 to 17:00
 Friday: Open from 9:00 to 17:00
@@ -7457,24 +7457,24 @@ YMCA's mission is to build strong kids, strong families and strong communities b
 They are committed to building equity through our diversity, inclusion and global engagement efforts. They work to ensure that everyone, regardless of ability, age, cultural background, ethnicity, faith, gender, gender identity, ideology, income, national origin, race or sexual orientation has the opportunity to reach their fullest potential.
 
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: buchanany@ymcasf.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 1530 Buchanan Street, San Francisco, CA, USA, 94115
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14159319622 - Phone
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 
 ------------------------------------------------------------
@@ -7494,15 +7494,15 @@ Providing programs for the local community:
 
 # ** Call to schedule an appointment for participation in programming, access to main office by appointment only. **
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: agarcia@ymcasf.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 1426 Fillmore Street , San Francisco, CA, USA, 94115
@@ -7512,9 +7512,9 @@ Here are the addresses associated with the service:
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +16508778642 - SF Main+16508778642 - South SF+16508778642 - San Mateo+16508778642 - Pacifica Main
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 
 ------------------------------------------------------------
@@ -7524,24 +7524,24 @@ UP ON TOP began in 2001 after a group of members of the Unitarian Universalist S
 
 Today, UP ON TOP provides high- quality, tuition-free after-school & summer opportunities, offering hope, stability, and fun to children of low-income families in San Francisco, while preparing them to be successful in school, in community and in life.
 The following are the required documents to receive the service:
-{required_documents}
-The fee is {fee}.
+N/A
+The fee is N/A.
 Here is the information for the application process:
-{application_process}
+N/A
 This is an email to contact them: bill@upontop.org
 The service provides the following interpretation services:
-{interpretation_services}
-Here is the website: {url}
-Is there a wait time: {wait_time}
+N/A
+Here is the website: N/A
+Is there a wait time: N/A
 It may also be known as its alternate name, None.
 Here are the addresses associated with the service:
 1187 Franklin Street, San Francisco, CA, USA, 94109
 
 The service provides services under the following categories: 
 []
-It has the following eligibility category requirements: {eligibility}
+It has the following eligibility category requirements: N/A
 Here are the service's phone numbers: +14159129737 - Phone
-Here are instructions associated with the service: {instructions}.
+Here are instructions associated with the service: N/A.
 Here are the hours for the service:
 Friday: Open from :0 to 23:00
 Thursday: Open from :0 to 23:00
@@ -16842,7 +16842,7 @@ Here is a description of the service it offers:
 # **How to Apply:**
 - Drop in to an individual or group counseling session (via zoom), or call 415-487-3100
 
-# **Service Contact Information:** {if available}
+# **Service Contact Information:** N/A
 - *** Phone number:*** 415-487-3100
 - *** Email:*** stonewall@sfaf.org
 
