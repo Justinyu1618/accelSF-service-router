@@ -1,0 +1,95 @@
+RETURNED EXTRACTED INFO: {'accelSF/Classify Category': {'new_supercategories': 'Homelessness, 70%\nSubstance Abuse, 60%\nSupport, 40%', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'Homelessness, 70%\nSubstance Abuse, 60%\nSupport, 40%'}, '0aa1b665-3a0d-4b6d-a298-c82355b01567': {'new_supercategories': 'Homelessness, 70%\nSubstance Abuse, 60%\nSupport, 40%', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'Homelessness, 70%\nSubstance Abuse, 60%\nSupport, 40%'}, 'accelSF/Classify Eligibility': {'new_eligibilities': "sad, about to be homeless, drugs aren't helping", 'e6fecdea-3182-4542-a196-096c19b04417': "sad, about to be homeless, drugs aren't helping"}, '9d63841a-76d8-4194-896a-12b7dba504d2': {'new_eligibilities': "sad, about to be homeless, drugs aren't helping", 'e6fecdea-3182-4542-a196-096c19b04417': "sad, about to be homeless, drugs aren't helping"}, 'new_supercategories': {'Homelessness': 70, 'Substance Abuse': 60, 'Support': 40}, 'new_categories': {}, 'category_affirmative': None, 'new_eligibilities': ['sad', 'about to be homeless', "drugs aren't helping"], 'eligibility_affirmative': None}
+extracted supercategories: {'Homelessness': 70, 'Substance Abuse': 60, 'Support': 40} 
+extracted eligibilities: ['sad', 'about to be homeless', "drugs aren't helping"]
+NOT VALID ELIGIBILITY
+NOT VALID ELIGIBILITY
+NOT VALID ELIGIBILITY
+extracted categories: {} 
+
+=========
+State: 
+ super categories: {'Homelessness': 70, 'Substance Abuse': 60, 'Support': 40}
+ categories:
+              {}
+ eligibilities: []
+ current_task: conversation
+==========
+
+RETURNED EXTRACTED INFO: {'accelSF/Classify Category': {'new_supercategories': 'Family, 80%\nHealth, 70%\nHousing, 60%', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'Family, 80%\nHealth, 70%\nHousing, 60%'}, '0aa1b665-3a0d-4b6d-a298-c82355b01567': {'new_supercategories': 'Family, 80%\nHealth, 70%\nHousing, 60%', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'Family, 80%\nHealth, 70%\nHousing, 60%'}, 'accelSF/Classify Eligibility': {'new_eligibilities': 'depressed, struggling financially, concerned about children', 'e6fecdea-3182-4542-a196-096c19b04417': 'depressed, struggling financially, concerned about children'}, '9d63841a-76d8-4194-896a-12b7dba504d2': {'new_eligibilities': 'depressed, struggling financially, concerned about children', 'e6fecdea-3182-4542-a196-096c19b04417': 'depressed, struggling financially, concerned about children'}, 'new_supercategories': {'Family': 80, 'Health': 70, 'Housing': 60}, 'new_categories': {}, 'category_affirmative': None, 'new_eligibilities': ['depressed', 'struggling financially', 'concerned about children'], 'eligibility_affirmative': None}
+extracted supercategories: {'Family': 80, 'Health': 70, 'Housing': 60} 
+extracted eligibilities: ['depressed', 'struggling financially', 'concerned about children']
+NOT VALID ELIGIBILITY
+NOT VALID ELIGIBILITY
+NOT VALID ELIGIBILITY
+extracted categories: {} 
+QUERY_SUB: ['General Family', 'Family with kids', 'Family Counseling']
+
+=========
+State: 
+ super categories: {'Homelessness': 70, 'Substance Abuse': 60, 'Support': 40, 'Family': 80, 'Health': 70, 'Housing': 60}
+ categories:
+              {'General Family': 60.0, 'Family with kids': 60.0, 'Job Placement Support': 60.0, 'Family Counseling': 60.0, 'Family Shelters': 60.0, 'Family Planning': 60.0, 'Family Legal Services': 60.0}
+ eligibilities: []
+ current_task: query_subcategory
+==========
+
+RETURNED EXTRACTED INFO: {'accelSF/Classify SubCategory': {'affirmative': 'No', 'cff38276-5b03-471b-8218-6a732681e5e6': 'No', 'new_categories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, '6c68ab3e-7361-44cd-ba61-57ae6ee04e81': {'affirmative': 'No', 'cff38276-5b03-471b-8218-6a732681e5e6': 'No', 'new_categories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, 'accelSF/Classify Eligibility': {'new_eligibilities': 'Near Homeless, Depressed, Home Renters', 'e6fecdea-3182-4542-a196-096c19b04417': 'Near Homeless, Depressed, Home Renters'}, '9d63841a-76d8-4194-896a-12b7dba504d2': {'new_eligibilities': 'Near Homeless, Depressed, Home Renters', 'e6fecdea-3182-4542-a196-096c19b04417': 'Near Homeless, Depressed, Home Renters'}, 'new_supercategories': {}, 'new_categories': {}, 'category_affirmative': True, 'new_eligibilities': ['Near Homeless', 'Depressed', 'Home Renters'], 'eligibility_affirmative': None}
+extracted supercategories: {} 
+extracted eligibilities: ['Near Homeless', 'Depressed', 'Home Renters']
+NOT VALID ELIGIBILITY
+extracted categories: {} 
+affirmative: True updates: {'General Family': 120, 'Family with kids': 120, 'Family Counseling': 120}
+QUERY_ELIG: ['San Francisco Residents']
+
+=========
+State: 
+ super categories: {'Homelessness': 70, 'Substance Abuse': 60, 'Support': 40, 'Family': 80, 'Health': 70, 'Housing': 60}
+ categories:
+              {'General Family': 90.0, 'Family with kids': 90.0, 'Job Placement Support': 60.0, 'Family Counseling': 90.0, 'Family Shelters': 60.0, 'Family Planning': 60.0, 'Family Legal Services': 60.0}
+ eligibilities: ['Near Homeless', 'Home Renters']
+ current_task: query_eligibility
+==========
+
+RETURNED EXTRACTED INFO: {'accelSF/Classify Category': {'new_supercategories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, '0aa1b665-3a0d-4b6d-a298-c82355b01567': {'new_supercategories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, 'accelSF/Query Eligibility': {'affirmative': 'Yes', '4a647c68-a1e2-4f44-bf88-61fa74a42461': 'Yes'}, '282b5fff-c8e3-4093-a56c-adea5ec34ec8': {'affirmative': 'Yes', '4a647c68-a1e2-4f44-bf88-61fa74a42461': 'Yes'}, 'accelSF/Classify Eligibility': {'new_eligibilities': 'Near Homeless, Home Renters, Depressed, Parent', 'e6fecdea-3182-4542-a196-096c19b04417': 'Near Homeless, Home Renters, Depressed, Parent'}, '9d63841a-76d8-4194-896a-12b7dba504d2': {'new_eligibilities': 'Near Homeless, Home Renters, Depressed, Parent', 'e6fecdea-3182-4542-a196-096c19b04417': 'Near Homeless, Home Renters, Depressed, Parent'}, 'new_supercategories': {}, 'new_categories': {}, 'category_affirmative': None, 'new_eligibilities': ['Near Homeless', 'Home Renters', 'Depressed', 'Parent'], 'eligibility_affirmative': True}
+extracted supercategories: {} 
+extracted eligibilities: ['Near Homeless', 'Home Renters', 'Depressed', 'Parent']
+NOT VALID ELIGIBILITY
+NOT VALID ELIGIBILITY
+extracted categories: {} 
+affirmative: True updates: ['San Francisco Residents']
+QUERY_ELIG: ['Low-Income']
+
+=========
+State: 
+ super categories: {'Homelessness': 70, 'Substance Abuse': 60, 'Support': 40, 'Family': 80, 'Health': 70, 'Housing': 60}
+ categories:
+              {'General Family': 90.0, 'Family with kids': 90.0, 'Job Placement Support': 60.0, 'Family Counseling': 90.0, 'Family Shelters': 60.0, 'Family Planning': 60.0, 'Family Legal Services': 60.0}
+ eligibilities: ['Near Homeless', 'Home Renters', 'Near Homeless', 'Home Renters', 'San Francisco Residents']
+ current_task: query_eligibility
+==========
+
+RETURNED EXTRACTED INFO: {'accelSF/Classify Category': {'new_supercategories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, '0aa1b665-3a0d-4b6d-a298-c82355b01567': {'new_supercategories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, 'accelSF/Query Eligibility': {'affirmative': 'No', '4a647c68-a1e2-4f44-bf88-61fa74a42461': 'No'}, '282b5fff-c8e3-4093-a56c-adea5ec34ec8': {'affirmative': 'No', '4a647c68-a1e2-4f44-bf88-61fa74a42461': 'No'}, 'accelSF/Classify Eligibility': {'new_eligibilities': 'Low-Income', 'e6fecdea-3182-4542-a196-096c19b04417': 'Low-Income'}, '9d63841a-76d8-4194-896a-12b7dba504d2': {'new_eligibilities': 'Low-Income', 'e6fecdea-3182-4542-a196-096c19b04417': 'Low-Income'}, 'new_supercategories': {}, 'new_categories': {}, 'category_affirmative': None, 'new_eligibilities': ['Low-Income'], 'eligibility_affirmative': True}
+extracted supercategories: {} 
+extracted eligibilities: ['Low-Income']
+extracted categories: {} 
+affirmative: True updates: ['Low-Income']
+
+=========
+State: 
+ super categories: {'Homelessness': 70, 'Substance Abuse': 60, 'Support': 40, 'Family': 80, 'Health': 70, 'Housing': 60}
+ categories:
+              {'General Family': 90.0, 'Family with kids': 90.0, 'Job Placement Support': 60.0, 'Family Counseling': 90.0, 'Family Shelters': 60.0, 'Family Planning': 60.0, 'Family Legal Services': 60.0}
+ eligibilities: ['Near Homeless', 'Home Renters', 'Near Homeless', 'Home Renters', 'San Francisco Residents', 'Low-Income', 'Low-Income']
+ current_task: recommend
+==========
+
+
+=========
+State: 
+ super categories: {'Homelessness': 70, 'Substance Abuse': 60, 'Support': 40, 'Family': 80, 'Health': 70, 'Housing': 60}
+ categories:
+              {'General Family': 90.0, 'Family with kids': 90.0, 'Job Placement Support': 60.0, 'Family Counseling': 90.0, 'Family Shelters': 60.0, 'Family Planning': 60.0, 'Family Legal Services': 60.0}
+ eligibilities: ['Near Homeless', 'Home Renters', 'Near Homeless', 'Home Renters', 'San Francisco Residents', 'Low-Income', 'Low-Income']
+ current_task: qa
+==========
+

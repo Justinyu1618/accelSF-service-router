@@ -1,0 +1,24 @@
+RETURNED EXTRACTED INFO:
+NOT VALID ELIGIBILITY
+NOT VALID ELIGIBILITY
+
+=========
+State: 
+ super categories: {}
+ categories:
+              {}
+ eligibilities: []
+ current_task: conversation
+==========
+
+Starting new HTTPS connection (1): app.wordware.ai:443
+https://app.wordware.ai:443 "POST /api/prompt/ba587aa9-64d9-442c-9a27-9b34652efc95/run HTTP/1.1" 200 None
+('RETURNED EXTRACTED INFO:', {'accelSF/Classify Category': {'new_supercategories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, '0aa1b665-3a0d-4b6d-a298-c82355b01567': {'new_supercategories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, 'accelSF/Classify Eligibility': {'new_eligibilities': 'friendly, unsure', 'e6fecdea-3182-4542-a196-096c19b04417': 'friendly, unsure'}, '9d63841a-76d8-4194-896a-12b7dba504d2': {'new_eligibilities': 'friendly, unsure', 'e6fecdea-3182-4542-a196-096c19b04417': 'friendly, unsure'}, 'new_supercategories': {}, 'new_categories': {}, 'category_affirmative': None, 'new_eligibilities': ['friendly', 'unsure'], 'eligibility_affirmative': None})
+('extracted supercategories: ', {})
+('extracted eligibilities: ', ['friendly', 'unsure'])
+('NOT VALID ELIGIBILITY',)
+('NOT VALID ELIGIBILITY',)
+('extracted categories: ', {})
+Starting new HTTPS connection (1): app.wordware.ai:443
+https://app.wordware.ai:443 "POST /api/prompt/c477762e-b8dd-4e6e-a331-0696e3a70ecb/run HTTP/1.1" 200 None
+('\n=========\nState: \n super categories: {}\n categories:\n              {}\n eligibilities: []\n current_task: conversation\n==========\n',)

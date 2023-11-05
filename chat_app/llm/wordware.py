@@ -16,6 +16,7 @@ class WordWare:
         pass
 
     def _make_request(self, prompt_id, inputs):
+        # print("INPUT LENGHT: ", len(json.dumps(inputs)))
         # Execute the prompt)
         r = requests.post(ENDPOINT_URL % prompt_id,
                           json={
@@ -34,7 +35,7 @@ class WordWare:
             for line in r.iter_lines():
                 if line:
                     content = json.loads(line.decode('utf-8'))
-                    print("CONTENT: ", content)
+                    # print("CONTENT: ", content)
                     value = content['value']
                     # # We can print values as they're generated
                     # if value['type'] == 'generation':
@@ -101,25 +102,26 @@ class WordWare:
     def _parse_eligibilities_resp(self, resp):
         # matches = re.findall(r'([a-zA-Z ]*?)', resp)
         matches = resp.split(",")
-        print("MATCHES", matches)
+        # print("MATCHES", matches)
         result = [elig.strip() for elig in matches]
         return result
 
     def extract_supercategory(self, data: ExtractSupercategoryInput):
-        print("extracting data")
+        # print("extracting data")
         prompt_id = "ba587aa9-64d9-442c-9a27-9b34652efc95"
         processed_data = self._preprocess_data(data)
         resp = self._make_request(prompt_id, processed_data)
-        print("RESP: ", resp)
+        # print("RESP: ", resp)
         if resp:
             values = self._parse_response_value(resp["values"])
-            print("VALUES: ", values)
+            # print("VALUES: ", values)
             return values
         return None
 
     def get_response(self, data: GetResponseInput):
         prompt_id = "c477762e-b8dd-4e6e-a331-0696e3a70ecb"
         processed_data = self._preprocess_data(data)
+        # print("PROCESSED DATA: ", processed_data["task"])
         resp = self._make_request(prompt_id, processed_data)
 
         if resp:

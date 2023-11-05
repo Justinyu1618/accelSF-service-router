@@ -1,6 +1,7 @@
 from typing import TypedDict
 from chat_app.data.data import DEFAULT_DATA_PATH, DataSet
 from chat_app.llm.llm_functions import LMMFunctions
+from chat_app.utils import log
 
 
 class ChatState(TypedDict):
@@ -14,6 +15,7 @@ class ChatState(TypedDict):
     latest_query_subcategories: list[str]
     current_task: str
     num_elig_queries: int
+    current_recommendations: str
 
 
 SUPCAT_CONF_THRESHOLD = 80
@@ -21,7 +23,7 @@ CAT_CONF_THRESHOLD = 80
 NUM_SUBCATS_TO_QUERY = 3
 NUM_ELIG_TO_QUERY = 1
 
-TARGET_ELIG_QUERIES = 3
+TARGET_ELIG_QUERIES = 2
 
 DEFAULT_RESPONSE = "Please tell me more"
 
@@ -42,7 +44,8 @@ class ChatMain:
             "latest_query_eligibilities": [],
             "latest_query_subcategories": [],
             "current_task": "",
-            "num_elig_queries": 0
+            "num_elig_queries": 0,
+            "current_recommendations": ""
         }
 
     def run_output(self, output: str):
@@ -78,8 +81,10 @@ class ChatMain:
 
         elig_services, cand_services = self.data.get_candidate_services(
             self.state['current_categories'], self.state['current_eligibilities'])
-        if (self.state['num_elig_queries'] >= TARGET_ELIG_QUERIES or len(elig_services) > 10):
+        if (self.state['num_elig_queries'] >= TARGET_ELIG_QUERIES):
             task = "recommend"
+        if (self.state["current_recommendations"]):
+            task = "qa"
 
         self.state['current_task'] = task
         return task
@@ -92,13 +97,22 @@ class ChatMain:
         if (task == "query_subcategory"):
             query_subcategories = self.get_top_subcategories()
             self.state['latest_query_subcategories'] = query_subcategories
-            print("QUERY_SUB:", query_subcategories)
+            log(f"QUERY_SUB: {query_subcategories}")
             all_supercategories = self.data.get_all_supercategories()
 
         if (task == "query_eligibility"):
             query_eligibilities = self.get_top_eligibilities()
             self.state['latest_query_eligibilities'] = query_eligibilities
-            print("QUERY_ELIG:", query_eligibilities)
+            self.state['num_elig_queries'] += 1
+            log(f"QUERY_ELIG: {query_eligibilities}", )
+
+        if (task == "recommend"):
+            elig_services = self.data.get_candidate_services(
+                self.state['current_categories'], self.state['current_eligibilities'])[0]
+
+            rec_str = self.data.get_service_string(elig_services[:10])
+            self.state['current_recommendations'] = rec_str
+            # log("REC: ", rec_str)
 
         msg = msg or self.state['latest_msg']
         get_response_resp = self.lmm.get_response({
@@ -109,15 +123,20 @@ class ChatMain:
             "all_supercategories": all_supercategories,
             "task": task,
             "query_subcategories": query_subcategories,
-            "query_eligibilities": query_eligibilities
+            "query_eligibilities": query_eligibilities,
+            "current_recommendations": self.state['current_recommendations']
         })
 
-        # print("RESP: ", get_response_resp)
+        # log("RESP: ", get_response_resp)
         if (get_response_resp):
             return get_response_resp["response"]
         return DEFAULT_RESPONSE
 
     def lmm_extract_information(self, msg=None):
+
+        if (self.state['current_task'] == "recommend" or self.state['current_task'] == "qa"):
+            return
+
         msg = msg or self.state['latest_msg']
         all_eligibilites = self.data.get_all_eligibilities_for_categories(
             self.state["current_categories"])
@@ -137,9 +156,9 @@ class ChatMain:
         })
 
         if extract_supercategory_resp:
-            print("RETURNED EXTRACTED INFO:", extract_supercategory_resp)
+            log(f"RETURNED EXTRACTED INFO: {extract_supercategory_resp}", )
             supercategories = extract_supercategory_resp['new_supercategories']
-            print("extracted supercategories: ", supercategories)
+            log(f"extracted supercategories: {supercategories} ", )
             for sup, perc in supercategories.items():
                 if (not self.data.is_valid_supercategory(sup)):
                     continue
@@ -158,10 +177,10 @@ class ChatMain:
                         self.state['current_categories'][cat] = new_perc
 
             eligibilities = extract_supercategory_resp['new_eligibilities']
-            print("extracted eligibilities: ", eligibilities)
+            log(f"extracted eligibilities: {eligibilities}", )
             # for elig, perc in eligibilities.items():
             #     if (not self.data.is_valid_eligibity(elig)):
-            #         print("NOT VALID ELIGIBILITY")
+            #         log("NOT VALID ELIGIBILITY")
             #         continue
             #     # This is not actually a running average, potentially better to bias towards new responses?
             #     new_perc = (self.state['current_eligibilities'][elig] + perc) / \
@@ -169,13 +188,13 @@ class ChatMain:
             #     self.state['current_eligibilities'][elig] = new_perc
             for elig in eligibilities:
                 if (not self.data.is_valid_eligibity(elig)):
-                    print("NOT VALID ELIGIBILITY")
+                    log("NOT VALID ELIGIBILITY")
                     continue
                 # This is not actually a running average, potentially better to bias towards new responses?
                 self.state['current_eligibilities'].append(elig)
 
             categories = extract_supercategory_resp['new_categories']
-            print("extracted categories: ", categories)
+            log(f"extracted categories: {categories} ", )
             for cat, perc in categories.items():
                 if (not self.data.is_valid_category(cat)):
                     continue
@@ -190,8 +209,8 @@ class ChatMain:
                 if (affirmative != None):
                     new_categories = {cat: 120 if
                                       affirmative else 0 for cat in self.state['latest_query_subcategories']}
-                    print(
-                        "affirmative: ", affirmative, "updates: ", new_categories)
+                    log(
+                        f"affirmative: {affirmative} updates: {new_categories}")
                     self.apply_perc_update(
                         new_categories, self.state['current_categories'])
 
@@ -201,8 +220,8 @@ class ChatMain:
                 if (affirmative):
                     for elig in self.state['latest_query_eligibilities']:
                         self.state['current_eligibilities'].append(elig)
-                    print(
-                        "affirmative: ", affirmative, "updates: ", self.state['latest_query_eligibilities'])
+                    log(
+                        f"affirmative: {affirmative} updates: {self.state['latest_query_eligibilities']}")
 
     def apply_perc_update(self, update, current):
         for key, perc in update.items():
@@ -223,5 +242,5 @@ class ChatMain:
         return list(filter(lambda elig: elig not in self.state['current_eligibilities'], ordered_list))[:NUM_ELIG_TO_QUERY]
 
     def print_state(self):
-        print(f"""\n=========\nState: \n super categories: {self.state['current_supercategories']}\n categories:
+        log(f"""\n=========\nState: \n super categories: {self.state['current_supercategories']}\n categories:
               {self.state['current_categories']}\n eligibilities: {self.state['current_eligibilities']}\n current_task: {self.state['current_task']}\n==========\n""") 
