@@ -3,7 +3,8 @@
 import json
 import requests
 import os
-from chat_app.llm.fn_types import ExtractSupercategoryInput
+import re
+from chat_app.llm.fn_types import ExtractSupercategoryInput, GetResponseInput
 from chat_app.llm.utils import fmt_history
 
 ENDPOINT_URL = "https://app.wordware.ai/api/prompt/%s/run"
@@ -46,12 +47,13 @@ class WordWare:
                         # Or we can read from the outputs at the end
                         # Currently we include everything by ID and by label - this will likely change in future in a breaking
                         # change but with ample warning
-                        print("\nFINAL OUTPUTS:")
-                        print(json.dumps(value, indent=4))
+
+                        # print("\nFINAL OUTPUTS:")
+                        # print(json.dumps(value, indent=4))
                         return value
         return None
 
-    def _process_data(self, data):
+    def _preprocess_data(self, data):
         new_data = data.copy()
 
         if "convo_history" in new_data:
@@ -62,15 +64,52 @@ class WordWare:
                 new_data[key] = ", ".join(value)
 
         for key, value in new_data.items():
-            if value == '':
+            if value == '' or value == None:
                 new_data[key] = " "
 
         return new_data
 
+    def _parse_response_value(self, values):
+        SUPCATEGORY_PROMPT_NAME = "accelSF/Classify Category"
+        ELIG_PROMPT_NAME = "accelSF/Classify Eligibility"
+        CATEGORY_PROMPT_NAME = "accelSF/Classify SubCategory"
+
+        # print("RAW VALUES: ", values)
+        values["new_supercategories"] = self._parse_categories_resp(
+            values[SUPCATEGORY_PROMPT_NAME]["new_supercategories"]) if SUPCATEGORY_PROMPT_NAME in values else {}
+        values["new_categories"] = self._parse_categories_resp(
+            values[CATEGORY_PROMPT_NAME]["new_categories"]) if CATEGORY_PROMPT_NAME in values else {}
+        values["affirmative"] = bool(
+            values[CATEGORY_PROMPT_NAME]["affirmative"]) if CATEGORY_PROMPT_NAME in values else None
+        values["new_eligibilities"] = self._parse_categories_resp(
+            values[ELIG_PROMPT_NAME]["new_eligibilities"]) if ELIG_PROMPT_NAME in values else {}
+
+        return values
+
+    def _parse_categories_resp(self, resp):
+        matches = re.findall(r'([a-zA-Z ]*?), (\d{1,2}|100)%', resp)
+
+        result = {category: int(perc) for category, perc in matches}
+        return result
+
     def extract_supercategory(self, data: ExtractSupercategoryInput):
-        prompt_id = "3202cbc1-5772-426f-ad02-6a9483663634"
-        processed_data = self._process_data(data)
-        return self._make_request(prompt_id, processed_data)
+        prompt_id = "ba587aa9-64d9-442c-9a27-9b34652efc95"
+        processed_data = self._preprocess_data(data)
+        resp = self._make_request(prompt_id, processed_data)
+        if resp:
+            values = self._parse_response_value(resp["values"])
+            print("VALUES: ", values)
+            return values
+        return None
+
+    def get_response(self, data: GetResponseInput):
+        prompt_id = "c477762e-b8dd-4e6e-a331-0696e3a70ecb"
+        processed_data = self._preprocess_data(data)
+        resp = self._make_request(prompt_id, processed_data)
+
+        if resp:
+            values = resp["values"]
+            return values
 
     def query_subcategory(self, data):
         pass

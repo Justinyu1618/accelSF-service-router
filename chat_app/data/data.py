@@ -3,7 +3,8 @@
 import json
 import os
 
-DEFAULT_DATA_PATH = "chat_app/data/TEMP_DATA.json"
+DEFAULT_DATA_PATH = "chat_app/data/COMBINED_DATA.json"
+DEFAULT_CATEGORIES_PATH = "chat_app/data/categories_edited.json"
 
 
 def parse_json_file(file_path):
@@ -16,17 +17,33 @@ class DataSet:
     def __init__(self, dataPath):
         self.dataPath = dataPath
         self.data = parse_json_file(dataPath)
+        self.categories_map = parse_json_file(DEFAULT_CATEGORIES_PATH)
 
         self.id_to_service = {}
         self.category_to_services = {}
+        self.eligibilities_to_services = {}
 
         self._transform_data()
 
     def _transform_data(self):
         try:
-            self.categories = self.data["facets"]["categories"]
+            self.categories = []
+            self.categories_to_querycat = {}
+            self.querycat_to_category = {}
+            for cats in self.categories_map.values():
+                self.categories.extend(cats.keys())
+
+                for cat, querycats in cats.items():
+                    if cat not in self.categories_to_querycat:
+                        self.categories_to_querycat[cat] = []
+                    querycats = [cat] if querycats == [] else querycats
+                    self.categories_to_querycat[cat].extend(querycats)
+                    self.querycat_to_category.update(
+                        {qcat: cat for qcat in querycats})
+
             self.eligibilities = self.data["facets"]["eligibilities"]
-            self.supercategories = self.data["supercategories"]
+            self.supercategories = list(self.categories_map.keys())
+
         except KeyError:
             print(
                 "Error: trouble getting categories, eligitibilites or subcategories from data")
@@ -35,11 +52,23 @@ class DataSet:
             id = service["id"]
             self.id_to_service[id] = service
 
-            categories = service["categories"]
-            for category in categories:
+            query_cats = service["categories"]
+            for qcat in query_cats:
+                if (qcat not in self.querycat_to_category):
+                    # TODO: we ignore anything that's in categories.json that's not in the dataset. we should make it consistent
+                    continue
+
+                category = self.querycat_to_category[qcat]
                 if (category not in self.category_to_services):
                     self.category_to_services[category] = []
                 self.category_to_services[category].append(id)
+
+            eligibilities = service["eligibilities"] if "eligibilities" in service else [
+            ]
+            for elig in eligibilities:
+                if elig not in self.eligibilities_to_services:
+                    self.eligibilities_to_services[elig] = []
+                self.eligibilities_to_services[elig].append(id)
 
     def get_all_services(self):
         return self.data["hits"] if "hits" in self.data else []
@@ -56,8 +85,41 @@ class DataSet:
     def get_all_eligibilities(self):
         return self.eligibilities
 
+    def get_eligibilities_for_service(self, service_id):
+        service = self.get_service_by_id(service_id)
+        return service["eligibilities"] if service and "eligibilities" in service else []
+
+    def get_services_for_category(self, category):
+        return self.category_to_services[category] if category in self.category_to_services else []
+
+    def get_all_eligibilities_for_categories(self, categories):
+        eligibilities = []
+        for category in categories:
+            services = self.get_services_for_category(category)
+            for service_id in services:
+                eligibilities.extend(
+                    self.get_eligibilities_for_service(service_id))
+        return eligibilities
+
+    def get_all_categories_for_supercategories(self, supercategories):
+        categories = []
+        for sup in supercategories:
+            categories.extend(
+                list(self.categories_map[sup].keys()) if sup in self.categories_map else [])
+        return categories
+
+    def is_valid_supercategory(self, supercategory):
+        return supercategory in self.supercategories
+
     def get_categories_for_supercategory(self, supercategory):
-        return self.supercategories[supercategory]["categories"]
+        return self.categories_map[supercategory].keys() if self.is_valid_supercategory(supercategory) else []
+
+    def get_ordered_list_of_categories(self, categories):
+        return sorted(categories, key=lambda cat: len(self.category_to_services[cat]), reverse=True)
+
+    def get_ordered_list_of_eligibilities(self, categories):
+        potential_elig = self.get_all_eligibilities_for_categories(categories)
+        return sorted(potential_elig, key=lambda elig: len(self.eligibilities_to_services[elig]), reverse=True)
 
 
 if __name__ == '__main__':

@@ -1,0 +1,258 @@
+{
+  "Family": {
+    "General Family": ["Family Resource Centers", "sffamilies"],
+    "Family with kids": [
+      "I am part of a family with children under 18 years old.",
+
+      "We are a family with children under 18 years old."
+    ],
+    "Job Placement Support": [],
+    "Family Counseling": [],
+    "Family Shelters": [],
+    "Family Planning": [],
+    "Family Legal Services": []
+  },
+  "Health": {
+    "General Health": [
+      "Health & Medical",
+      "Health",
+      "Medical Care",
+      "Other Medical Services",
+      "General Outpatient Services"
+    ],
+    "Birth Control": [],
+    "Specialized Therapy": [],
+    "Disability Benefits": [],
+    "Fitness & Exercise": [],
+    "Sports": [],
+    "Emergency Care": ["Services/Urgent Care"],
+    "Mental Health": [
+      "Mental Health Care",
+      "Mental Health Evaluation",
+      "Other Mental Health Services",
+      "Mental Health Services",
+      "Understand Mental Health",
+      "Ucsf-mentalhealth"
+    ],
+    "Mental Health Urgent Care": [],
+    "Mental Health Medication": [
+      "Mental Health Medication",
+      "Medications for Mental Health"
+    ],
+    "Healthcare and Health Insurance": [
+      "Health Insurance",
+      "Help Pay for Healthcare",
+      "Discounted Healthcare"
+    ]
+  },
+  "Food": {
+    "Food access": [
+      "Food",
+      "Covid-food",
+      "Help Pay for Food",
+      "Food for children",
+      "Emergency Food",
+      "Food Delivery",
+      "Food pantries",
+      "Ucsf-foodinsecurity",
+      "Food Pantry",
+      "Food Benefits"
+    ],
+    "Meals": ["Congregate Meals", "Free Meals", "Hot Meals"]
+  },
+  "Covid": {
+    "Covid resources": [
+      "Covid-health",
+      "Covid-lgbtqa",
+      "Covid-jobs",
+      "Covid-domesticviolence",
+      "Covid-internet",
+      "Covid-housing",
+      "Covid-substanceuse",
+      "Covid-longtermhousing",
+      "Covid-hygiene",
+      "Covid-shelter",
+      "Covid-finance",
+      "Coronavirus (COVID-19) Testing",
+      "Coronavirus-Related Urgent Care"
+    ]
+  },
+  "Housing": {
+    "General Housing": [
+      "MOHCD Funded",
+      "Housing Counseling",
+      "Housing",
+
+      "Housing Assistance",
+      "Housing Vouchers",
+      "Long-Term Housing"
+    ],
+    "Safe Housing": [],
+    "Subsidized Housing": ["Help Pay for Housing"],
+    "Low-Income Housing": ["Low-Income Housing"],
+    "Housing Rights": ["Housing Rights", "Housing/Tenant Rights"],
+    "Finding Housing": ["Help Find Housing", "Short-Term Housing"],
+    "Transitional Housing for Women": []
+  },
+  "Violence": {
+    "Domestic Violence": [
+      "Ucsf-intimatepartnerviolence",
+      "Help Hotlines",
+      "Domestic Violence Counseling",
+      "Domestic Violence",
+      "Help Escape Violence"
+    ],
+    "Domestic Violence Hotlines": [
+      "Domestic Violence Hotline",
+      "Domestic Violence Hotlines"
+    ],
+    "Domestic Violence Shelters": [
+      "Domestic Violence Shelter",
+      "Domestic Violence Shelters"
+    ],
+    "Personal Safety": []
+  },
+  "Technology": {
+    "Technology Access": [
+      "Computer or Internet Access",
+      "Technology",
+      "Computer Access"
+    ]
+  },
+  "Hygiene": {
+    "General Hygiene": ["Hygiene", "Hygiene Supplies", "Hygiene kits"],
+    "Sexual & Reproductive Health": [],
+    "Dental Care": [],
+    "HIV Treatment": [],
+    "Toilet": ["Portable Toilets and Hand-Washing Stations", "Toilet"]
+  },
+  "Substance Abuse": {
+    "General Substance Abuse": [
+      "Substance Abuse Counseling",
+      "Ucsf-substanceabuse"
+    ],
+    "Addiction & Recovery": [],
+    "Drug": ["Drug Related Services", "Drug Testing"]
+  },
+  "Homelessness": {
+    "Homelessness Needs": [
+      "Long-Term Shelter",
+      "Ucsf-shelter",
+      "Basic Needs & Shelter",
+      "Our Family is Experiencing Homelessness and I Need Subsidies",
+      "Government Homelessness Services",
+      "Homelessness Essentials",
+      "I am not currently experiencing homelessness, but I am looking for a long-term affordable housing unit.",
+      "I am experiencing homelessness and I need immediate help finding shelter.",
+      "I am experiencing homelessness (on the street, couchsurfing, or other) and I need long-term housing assistance."
+    ]
+  },
+  "Employment": {
+    "Employment Needs": [
+      "Employment",
+      "Unemployment Benefits",
+      "Supported Employment",
+      "Unemployment Insurance-based Benefit Payments"
+    ]
+  },
+  "Case Manager": { "Case Manager General": ["Case Manager"] },
+  "Youth": {
+    "Youth Resource": [
+      "Afterschool Programs",
+      "Youth",
+      "After School Care",
+      "School Care",
+      "Vocational Training Programs",
+      "Summer Programs",
+      "Vocational Training Programs",
+      "Culture & Identity",
+      "STEM",
+      "Early Childhood",
+      "Youth Services",
+      "Youth Jobs",
+      "Books",
+      "Academic",
+      "Recreation",
+      "Transitional Aged Youth",
+      "Early Childhood Education",
+      "Job Assistance",
+      "Youth Leadership",
+      "Performing Arts",
+      "Sports",
+      "Youth Services",
+      "Transitional Age Youth",
+      "Workplace Rights"
+    ]
+  },
+  "Learning": {
+    "Learning Development": [
+      "Education",
+      "Skill Building",
+      "Arts and Creative Expression",
+      "Music",
+      "SEL (Social Emotional Learning)",
+      "Nature & Gardening",
+      "Specialized Training",
+      "Vocational Training",
+      "Basic Literacy",
+      "Financial Education",
+      "Nutrition Education",
+      "Parenting Education",
+      "Sex Education",
+      "Counseling",
+      "Health Education",
+      "Educational Supports",
+      "Health Education",
+      "Daily Life Skills",
+      "Job Training",
+      "Skills & Training",
+      "Counseling",
+      "Job Placement",
+      "Legal Assistance"
+    ]
+  },
+  "Support": {
+    "Support/Groups": [
+      "Support Groups",
+      "Peer Support",
+      "Support Services",
+      "Support Network",
+      "In-Home Support",
+      "Government Benefits",
+      "One-on-One Support",
+      "Individual Counseling",
+      "Mentoring",
+      "Advocacy & Legal Aid",
+      "Leadership",
+      "Temporary Shelter",
+      "Representation"
+    ]
+  },
+  "Legal": {
+    "Legal Aid": [
+      "Citizenship & Immigration",
+      "Legal",
+      "Discrimination & Civil Rights",
+      "Prison/Jail Related Services",
+      "At Imminent Risk of Eviction",
+      "Legal Representation"
+    ]
+  },
+  "Career": {
+    "Career Development": [
+      "Job Readiness",
+      "Financial Aid & Loans",
+      "Career Awareness",
+      "Resume Development",
+      "College Prep",
+      "I am between 18 and 27 years old."
+    ]
+  },
+  "Others": {
+    "Other Categories": [
+      "I am over 24 years old without children.",
+      "Seniors",
+      "I am between 18 and 24 years old."
+    ]
+  }
+}

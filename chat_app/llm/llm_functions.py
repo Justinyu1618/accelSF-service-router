@@ -1,7 +1,7 @@
 
 
 from typing import Literal, TypeAlias, TypedDict
-from chat_app.llm.fn_types import ExtractSupercategoryInput
+from chat_app.llm.fn_types import ExtractSupercategoryInput, GetResponseInput
 from chat_app.llm.wordware import WordWare
 
 
@@ -16,6 +16,9 @@ class LMMFunctions:
 
     def extract_supercategory(self, data: ExtractSupercategoryInput):
         return self.backend.extract_supercategory(data)
+
+    def get_response(self, data: GetResponseInput):
+        return self.backend.get_response(data)
 
     def query_subcategory(self, data):
         pass
