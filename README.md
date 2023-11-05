@@ -16,5 +16,13 @@ Voice
 LLMs
 Prompt Engineering
 
+Judging Criteria:
+1. Real world impact on SF - connecting citizens to immediate needs/services, there are over 2,344 unsheltered citizens in SF  
+2. Technical execution - Python backend, Wordware.ai, Voice
+3. Creative use of AI - categorization/classification, empathetic responses 
+4. Usability - usable to find immediate needs for user through command prompt
+5. Long-term execution plan - Emma Heiken, SFServiceGuide.org
+
+
 
 Future Plan: Work with Shelter Tech to integrate with the SF Shelter Guide and Sf.gov website.
