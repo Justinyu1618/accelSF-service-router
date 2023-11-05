@@ -3,6 +3,8 @@
 import json
 import os
 
+from llmstring_data import data_to_string
+
 DEFAULT_DATA_PATH = "chat_app/data/COMBINED_DATA.json"
 DEFAULT_CATEGORIES_PATH = "chat_app/data/categories_edited.json"
 
@@ -69,12 +71,31 @@ class DataSet:
                 if elig not in self.eligibilities_to_services:
                     self.eligibilities_to_services[elig] = []
                 self.eligibilities_to_services[elig].append(id)
-
+       
     def get_all_services(self):
         return self.data["hits"] if "hits" in self.data else []
 
     def get_service_by_id(self, id):
         return self.id_to_service[id] if id in self.id_to_service else None
+    
+        # add string template for each service id
+    def get_service_string(self, ids):
+        # define a class for Default values if key does not exist
+        class Default(dict):
+            def __missing__(self, key):
+                return 'N/A'
+            
+        addresses_string = ""
+        schedule_string = ""
+        phone_string = ""
+
+        string_template = ""
+
+        for id in ids:
+            service = self.id_to_service[id]
+            string_template += data_to_string(service, addresses_string, schedule_string, phone_string)
+
+        return string_template
 
     def get_all_supercategories(self):
         return self.supercategories
