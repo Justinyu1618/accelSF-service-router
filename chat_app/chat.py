@@ -2,6 +2,7 @@ from typing import TypedDict
 from chat_app.data.data import DEFAULT_DATA_PATH, DataSet
 from chat_app.llm.llm_functions import LMMFunctions
 from chat_app.utils import log
+import random
 
 
 class ChatState(TypedDict):
@@ -23,7 +24,7 @@ CAT_CONF_THRESHOLD = 80
 NUM_SUBCATS_TO_QUERY = 3
 NUM_ELIG_TO_QUERY = 1
 
-TARGET_ELIG_QUERIES = 2
+TARGET_ELIG_QUERIES = 3
 
 DEFAULT_RESPONSE = "Please tell me more"
 
@@ -239,7 +240,10 @@ class ChatMain:
     def get_top_eligibilities(self):
         cats = self.state['current_categories']
         ordered_list = self.data.get_ordered_list_of_eligibilities(cats)
-        return list(filter(lambda elig: elig not in self.state['current_eligibilities'], ordered_list))[:NUM_ELIG_TO_QUERY]
+        candidates = list(filter(lambda elig: elig not in self.state['current_eligibilities'], ordered_list))[
+            :NUM_ELIG_TO_QUERY * 4]
+        random.shuffle(candidates)
+        return candidates[:NUM_ELIG_TO_QUERY]
 
     def print_state(self):
         log(f"""\n=========\nState: \n super categories: {self.state['current_supercategories']}\n categories:

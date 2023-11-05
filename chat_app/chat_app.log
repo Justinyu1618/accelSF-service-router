@@ -1,95 +1,80 @@
-RETURNED EXTRACTED INFO: {'accelSF/Classify Category': {'new_supercategories': 'Homelessness, 70%\nSubstance Abuse, 60%\nSupport, 40%', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'Homelessness, 70%\nSubstance Abuse, 60%\nSupport, 40%'}, '0aa1b665-3a0d-4b6d-a298-c82355b01567': {'new_supercategories': 'Homelessness, 70%\nSubstance Abuse, 60%\nSupport, 40%', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'Homelessness, 70%\nSubstance Abuse, 60%\nSupport, 40%'}, 'accelSF/Classify Eligibility': {'new_eligibilities': "sad, about to be homeless, drugs aren't helping", 'e6fecdea-3182-4542-a196-096c19b04417': "sad, about to be homeless, drugs aren't helping"}, '9d63841a-76d8-4194-896a-12b7dba504d2': {'new_eligibilities': "sad, about to be homeless, drugs aren't helping", 'e6fecdea-3182-4542-a196-096c19b04417': "sad, about to be homeless, drugs aren't helping"}, 'new_supercategories': {'Homelessness': 70, 'Substance Abuse': 60, 'Support': 40}, 'new_categories': {}, 'category_affirmative': None, 'new_eligibilities': ['sad', 'about to be homeless', "drugs aren't helping"], 'eligibility_affirmative': None}
-extracted supercategories: {'Homelessness': 70, 'Substance Abuse': 60, 'Support': 40} 
-extracted eligibilities: ['sad', 'about to be homeless', "drugs aren't helping"]
-NOT VALID ELIGIBILITY
-NOT VALID ELIGIBILITY
-NOT VALID ELIGIBILITY
-extracted categories: {} 
-
-=========
-State: 
- super categories: {'Homelessness': 70, 'Substance Abuse': 60, 'Support': 40}
- categories:
-              {}
- eligibilities: []
- current_task: conversation
-==========
-
-RETURNED EXTRACTED INFO: {'accelSF/Classify Category': {'new_supercategories': 'Family, 80%\nHealth, 70%\nHousing, 60%', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'Family, 80%\nHealth, 70%\nHousing, 60%'}, '0aa1b665-3a0d-4b6d-a298-c82355b01567': {'new_supercategories': 'Family, 80%\nHealth, 70%\nHousing, 60%', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'Family, 80%\nHealth, 70%\nHousing, 60%'}, 'accelSF/Classify Eligibility': {'new_eligibilities': 'depressed, struggling financially, concerned about children', 'e6fecdea-3182-4542-a196-096c19b04417': 'depressed, struggling financially, concerned about children'}, '9d63841a-76d8-4194-896a-12b7dba504d2': {'new_eligibilities': 'depressed, struggling financially, concerned about children', 'e6fecdea-3182-4542-a196-096c19b04417': 'depressed, struggling financially, concerned about children'}, 'new_supercategories': {'Family': 80, 'Health': 70, 'Housing': 60}, 'new_categories': {}, 'category_affirmative': None, 'new_eligibilities': ['depressed', 'struggling financially', 'concerned about children'], 'eligibility_affirmative': None}
-extracted supercategories: {'Family': 80, 'Health': 70, 'Housing': 60} 
-extracted eligibilities: ['depressed', 'struggling financially', 'concerned about children']
-NOT VALID ELIGIBILITY
+RETURNED EXTRACTED INFO: {'accelSF/Classify Category': {'new_supercategories': 'Violence, 90%\nSupport, 80%\nLegal, 70%', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'Violence, 90%\nSupport, 80%\nLegal, 70%'}, '0aa1b665-3a0d-4b6d-a298-c82355b01567': {'new_supercategories': 'Violence, 90%\nSupport, 80%\nLegal, 70%', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'Violence, 90%\nSupport, 80%\nLegal, 70%'}, 'accelSF/Classify Eligibility': {'new_eligibilities': 'domestic violence victim, unsure', 'e6fecdea-3182-4542-a196-096c19b04417': 'domestic violence victim, unsure'}, '9d63841a-76d8-4194-896a-12b7dba504d2': {'new_eligibilities': 'domestic violence victim, unsure', 'e6fecdea-3182-4542-a196-096c19b04417': 'domestic violence victim, unsure'}, 'new_supercategories': {'Violence': 90, 'Support': 80, 'Legal': 70}, 'new_categories': {}, 'category_affirmative': None, 'new_eligibilities': ['domestic violence victim', 'unsure'], 'eligibility_affirmative': None}
+extracted supercategories: {'Violence': 90, 'Support': 80, 'Legal': 70} 
+extracted eligibilities: ['domestic violence victim', 'unsure']
 NOT VALID ELIGIBILITY
 NOT VALID ELIGIBILITY
 extracted categories: {} 
-QUERY_SUB: ['General Family', 'Family with kids', 'Family Counseling']
+QUERY_SUB: ['Support/Groups', 'Domestic Violence', 'Domestic Violence Shelters']
 
 =========
 State: 
- super categories: {'Homelessness': 70, 'Substance Abuse': 60, 'Support': 40, 'Family': 80, 'Health': 70, 'Housing': 60}
+ super categories: {'Violence': 90, 'Support': 80, 'Legal': 70}
  categories:
-              {'General Family': 60.0, 'Family with kids': 60.0, 'Job Placement Support': 60.0, 'Family Counseling': 60.0, 'Family Shelters': 60.0, 'Family Planning': 60.0, 'Family Legal Services': 60.0}
+              {'Domestic Violence': 67.5, 'Domestic Violence Hotlines': 67.5, 'Domestic Violence Shelters': 67.5, 'Personal Safety': 67.5, 'Support/Groups': 60.0}
  eligibilities: []
  current_task: query_subcategory
 ==========
 
-RETURNED EXTRACTED INFO: {'accelSF/Classify SubCategory': {'affirmative': 'No', 'cff38276-5b03-471b-8218-6a732681e5e6': 'No', 'new_categories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, '6c68ab3e-7361-44cd-ba61-57ae6ee04e81': {'affirmative': 'No', 'cff38276-5b03-471b-8218-6a732681e5e6': 'No', 'new_categories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, 'accelSF/Classify Eligibility': {'new_eligibilities': 'Near Homeless, Depressed, Home Renters', 'e6fecdea-3182-4542-a196-096c19b04417': 'Near Homeless, Depressed, Home Renters'}, '9d63841a-76d8-4194-896a-12b7dba504d2': {'new_eligibilities': 'Near Homeless, Depressed, Home Renters', 'e6fecdea-3182-4542-a196-096c19b04417': 'Near Homeless, Depressed, Home Renters'}, 'new_supercategories': {}, 'new_categories': {}, 'category_affirmative': True, 'new_eligibilities': ['Near Homeless', 'Depressed', 'Home Renters'], 'eligibility_affirmative': None}
+RETURNED EXTRACTED INFO: {'accelSF/Classify SubCategory': {'affirmative': 'Yes', 'cff38276-5b03-471b-8218-6a732681e5e6': 'Yes', 'new_categories': 'Domestic Violence Shelters, 90%\nSupport/Groups, 80%\nDomestic Violence Hotlines, 70%', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'Domestic Violence Shelters, 90%\nSupport/Groups, 80%\nDomestic Violence Hotlines, 70%'}, '6c68ab3e-7361-44cd-ba61-57ae6ee04e81': {'affirmative': 'Yes', 'cff38276-5b03-471b-8218-6a732681e5e6': 'Yes', 'new_categories': 'Domestic Violence Shelters, 90%\nSupport/Groups, 80%\nDomestic Violence Hotlines, 70%', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'Domestic Violence Shelters, 90%\nSupport/Groups, 80%\nDomestic Violence Hotlines, 70%'}, 'accelSF/Classify Eligibility': {'new_eligibilities': 'Domestic Violence Survivors, Women', 'e6fecdea-3182-4542-a196-096c19b04417': 'Domestic Violence Survivors, Women'}, '9d63841a-76d8-4194-896a-12b7dba504d2': {'new_eligibilities': 'Domestic Violence Survivors, Women', 'e6fecdea-3182-4542-a196-096c19b04417': 'Domestic Violence Survivors, Women'}, 'new_supercategories': {}, 'new_categories': {'Domestic Violence Shelters': 90, 'Groups': 80, 'Domestic Violence Hotlines': 70}, 'category_affirmative': True, 'new_eligibilities': ['Domestic Violence Survivors', 'Women'], 'eligibility_affirmative': None}
 extracted supercategories: {} 
-extracted eligibilities: ['Near Homeless', 'Depressed', 'Home Renters']
-NOT VALID ELIGIBILITY
-extracted categories: {} 
-affirmative: True updates: {'General Family': 120, 'Family with kids': 120, 'Family Counseling': 120}
-QUERY_ELIG: ['San Francisco Residents']
+extracted eligibilities: ['Domestic Violence Survivors', 'Women']
+extracted categories: {'Domestic Violence Shelters': 90, 'Groups': 80, 'Domestic Violence Hotlines': 70} 
+affirmative: True updates: {'Support/Groups': 120, 'Domestic Violence': 120, 'Domestic Violence Shelters': 120}
+QUERY_ELIG: ['I am a Senior']
 
 =========
 State: 
- super categories: {'Homelessness': 70, 'Substance Abuse': 60, 'Support': 40, 'Family': 80, 'Health': 70, 'Housing': 60}
+ super categories: {'Violence': 90, 'Support': 80, 'Legal': 70}
  categories:
-              {'General Family': 90.0, 'Family with kids': 90.0, 'Job Placement Support': 60.0, 'Family Counseling': 90.0, 'Family Shelters': 60.0, 'Family Planning': 60.0, 'Family Legal Services': 60.0}
- eligibilities: ['Near Homeless', 'Home Renters']
+              {'Domestic Violence': 93.75, 'Domestic Violence Hotlines': 68.75, 'Domestic Violence Shelters': 99.375, 'Personal Safety': 67.5, 'Support/Groups': 90.0}
+ eligibilities: ['Domestic Violence Survivors', 'Women']
  current_task: query_eligibility
 ==========
 
-RETURNED EXTRACTED INFO: {'accelSF/Classify Category': {'new_supercategories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, '0aa1b665-3a0d-4b6d-a298-c82355b01567': {'new_supercategories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, 'accelSF/Query Eligibility': {'affirmative': 'Yes', '4a647c68-a1e2-4f44-bf88-61fa74a42461': 'Yes'}, '282b5fff-c8e3-4093-a56c-adea5ec34ec8': {'affirmative': 'Yes', '4a647c68-a1e2-4f44-bf88-61fa74a42461': 'Yes'}, 'accelSF/Classify Eligibility': {'new_eligibilities': 'Near Homeless, Home Renters, Depressed, Parent', 'e6fecdea-3182-4542-a196-096c19b04417': 'Near Homeless, Home Renters, Depressed, Parent'}, '9d63841a-76d8-4194-896a-12b7dba504d2': {'new_eligibilities': 'Near Homeless, Home Renters, Depressed, Parent', 'e6fecdea-3182-4542-a196-096c19b04417': 'Near Homeless, Home Renters, Depressed, Parent'}, 'new_supercategories': {}, 'new_categories': {}, 'category_affirmative': None, 'new_eligibilities': ['Near Homeless', 'Home Renters', 'Depressed', 'Parent'], 'eligibility_affirmative': True}
+RETURNED EXTRACTED INFO: {'accelSF/Classify Category': {'new_supercategories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, '0aa1b665-3a0d-4b6d-a298-c82355b01567': {'new_supercategories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, 'accelSF/Query Eligibility': {'affirmative': 'No', '4a647c68-a1e2-4f44-bf88-61fa74a42461': 'No'}, '282b5fff-c8e3-4093-a56c-adea5ec34ec8': {'affirmative': 'No', '4a647c68-a1e2-4f44-bf88-61fa74a42461': 'No'}, 'accelSF/Classify Eligibility': {'new_eligibilities': 'Young Adults (18-27 years old)', 'e6fecdea-3182-4542-a196-096c19b04417': 'Young Adults (18-27 years old)'}, '9d63841a-76d8-4194-896a-12b7dba504d2': {'new_eligibilities': 'Young Adults (18-27 years old)', 'e6fecdea-3182-4542-a196-096c19b04417': 'Young Adults (18-27 years old)'}, 'new_supercategories': {}, 'new_categories': {}, 'category_affirmative': None, 'new_eligibilities': ['Young Adults (18-27 years old)'], 'eligibility_affirmative': True}
 extracted supercategories: {} 
-extracted eligibilities: ['Near Homeless', 'Home Renters', 'Depressed', 'Parent']
-NOT VALID ELIGIBILITY
-NOT VALID ELIGIBILITY
+extracted eligibilities: ['Young Adults (18-27 years old)']
 extracted categories: {} 
-affirmative: True updates: ['San Francisco Residents']
-QUERY_ELIG: ['Low-Income']
+affirmative: True updates: ['I am a Senior']
+QUERY_ELIG: ['Children (0-13 years old)']
 
 =========
 State: 
- super categories: {'Homelessness': 70, 'Substance Abuse': 60, 'Support': 40, 'Family': 80, 'Health': 70, 'Housing': 60}
+ super categories: {'Violence': 90, 'Support': 80, 'Legal': 70}
  categories:
-              {'General Family': 90.0, 'Family with kids': 90.0, 'Job Placement Support': 60.0, 'Family Counseling': 90.0, 'Family Shelters': 60.0, 'Family Planning': 60.0, 'Family Legal Services': 60.0}
- eligibilities: ['Near Homeless', 'Home Renters', 'Near Homeless', 'Home Renters', 'San Francisco Residents']
+              {'Domestic Violence': 93.75, 'Domestic Violence Hotlines': 68.75, 'Domestic Violence Shelters': 99.375, 'Personal Safety': 67.5, 'Support/Groups': 90.0}
+ eligibilities: ['Domestic Violence Survivors', 'Women', 'Young Adults (18-27 years old)', 'I am a Senior']
  current_task: query_eligibility
 ==========
 
-RETURNED EXTRACTED INFO: {'accelSF/Classify Category': {'new_supercategories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, '0aa1b665-3a0d-4b6d-a298-c82355b01567': {'new_supercategories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, 'accelSF/Query Eligibility': {'affirmative': 'No', '4a647c68-a1e2-4f44-bf88-61fa74a42461': 'No'}, '282b5fff-c8e3-4093-a56c-adea5ec34ec8': {'affirmative': 'No', '4a647c68-a1e2-4f44-bf88-61fa74a42461': 'No'}, 'accelSF/Classify Eligibility': {'new_eligibilities': 'Low-Income', 'e6fecdea-3182-4542-a196-096c19b04417': 'Low-Income'}, '9d63841a-76d8-4194-896a-12b7dba504d2': {'new_eligibilities': 'Low-Income', 'e6fecdea-3182-4542-a196-096c19b04417': 'Low-Income'}, 'new_supercategories': {}, 'new_categories': {}, 'category_affirmative': None, 'new_eligibilities': ['Low-Income'], 'eligibility_affirmative': True}
+RETURNED EXTRACTED INFO: {'accelSF/Classify Category': {'new_supercategories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, '0aa1b665-3a0d-4b6d-a298-c82355b01567': {'new_supercategories': 'None', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'None'}, 'accelSF/Query Eligibility': {'affirmative': 'No', '4a647c68-a1e2-4f44-bf88-61fa74a42461': 'No'}, '282b5fff-c8e3-4093-a56c-adea5ec34ec8': {'affirmative': 'No', '4a647c68-a1e2-4f44-bf88-61fa74a42461': 'No'}, 'accelSF/Classify Eligibility': {'new_eligibilities': 'Young Adults (18-27 years old)', 'e6fecdea-3182-4542-a196-096c19b04417': 'Young Adults (18-27 years old)'}, '9d63841a-76d8-4194-896a-12b7dba504d2': {'new_eligibilities': 'Young Adults (18-27 years old)', 'e6fecdea-3182-4542-a196-096c19b04417': 'Young Adults (18-27 years old)'}, 'new_supercategories': {}, 'new_categories': {}, 'category_affirmative': None, 'new_eligibilities': ['Young Adults (18-27 years old)'], 'eligibility_affirmative': True}
 extracted supercategories: {} 
-extracted eligibilities: ['Low-Income']
+extracted eligibilities: ['Young Adults (18-27 years old)']
 extracted categories: {} 
-affirmative: True updates: ['Low-Income']
+affirmative: True updates: ['Children (0-13 years old)']
+QUERY_ELIG: ['Anyone in Need']
 
 =========
 State: 
- super categories: {'Homelessness': 70, 'Substance Abuse': 60, 'Support': 40, 'Family': 80, 'Health': 70, 'Housing': 60}
+ super categories: {'Violence': 90, 'Support': 80, 'Legal': 70}
  categories:
-              {'General Family': 90.0, 'Family with kids': 90.0, 'Job Placement Support': 60.0, 'Family Counseling': 90.0, 'Family Shelters': 60.0, 'Family Planning': 60.0, 'Family Legal Services': 60.0}
- eligibilities: ['Near Homeless', 'Home Renters', 'Near Homeless', 'Home Renters', 'San Francisco Residents', 'Low-Income', 'Low-Income']
+              {'Domestic Violence': 93.75, 'Domestic Violence Hotlines': 68.75, 'Domestic Violence Shelters': 99.375, 'Personal Safety': 67.5, 'Support/Groups': 90.0}
+ eligibilities: ['Domestic Violence Survivors', 'Women', 'Young Adults (18-27 years old)', 'I am a Senior', 'Young Adults (18-27 years old)', 'Children (0-13 years old)']
+ current_task: query_eligibility
+==========
+
+RETURNED EXTRACTED INFO: {'accelSF/Classify Category': {'new_supercategories': 'Housing, 80%\nViolence, 70%\nSupport, 60%', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'Housing, 80%\nViolence, 70%\nSupport, 60%'}, '0aa1b665-3a0d-4b6d-a298-c82355b01567': {'new_supercategories': 'Housing, 80%\nViolence, 70%\nSupport, 60%', '95d9dee6-660f-40ae-afaf-da0b7fcfadd9': 'Housing, 80%\nViolence, 70%\nSupport, 60%'}, 'accelSF/Query Eligibility': {'affirmative': 'Yes', '4a647c68-a1e2-4f44-bf88-61fa74a42461': 'Yes'}, '282b5fff-c8e3-4093-a56c-adea5ec34ec8': {'affirmative': 'Yes', '4a647c68-a1e2-4f44-bf88-61fa74a42461': 'Yes'}, 'accelSF/Classify Eligibility': {'new_eligibilities': 'Domestic Violence Survivors, Women, Young Adults (18-27 years old), I am a Senior, Young Adults (18-27 years old), Children (0-13 years old), Homeless', 'e6fecdea-3182-4542-a196-096c19b04417': 'Domestic Violence Survivors, Women, Young Adults (18-27 years old), I am a Senior, Young Adults (18-27 years old), Children (0-13 years old), Homeless'}, '9d63841a-76d8-4194-896a-12b7dba504d2': {'new_eligibilities': 'Domestic Violence Survivors, Women, Young Adults (18-27 years old), I am a Senior, Young Adults (18-27 years old), Children (0-13 years old), Homeless', 'e6fecdea-3182-4542-a196-096c19b04417': 'Domestic Violence Survivors, Women, Young Adults (18-27 years old), I am a Senior, Young Adults (18-27 years old), Children (0-13 years old), Homeless'}, 'new_supercategories': {'Housing': 80, 'Violence': 70, 'Support': 60}, 'new_categories': {}, 'category_affirmative': None, 'new_eligibilities': ['Domestic Violence Survivors', 'Women', 'Young Adults (18-27 years old)', 'I am a Senior', 'Young Adults (18-27 years old)', 'Children (0-13 years old)', 'Homeless'], 'eligibility_affirmative': True}
+extracted supercategories: {'Housing': 80, 'Violence': 70, 'Support': 60} 
+extracted eligibilities: ['Domestic Violence Survivors', 'Women', 'Young Adults (18-27 years old)', 'I am a Senior', 'Young Adults (18-27 years old)', 'Children (0-13 years old)', 'Homeless']
+extracted categories: {} 
+affirmative: True updates: ['Anyone in Need']
+
+=========
+State: 
+ super categories: {'Violence': 80.0, 'Support': 70.0, 'Legal': 70, 'Housing': 80}
+ categories:
+              {'Domestic Violence': 93.75, 'Domestic Violence Hotlines': 68.75, 'Domestic Violence Shelters': 99.375, 'Personal Safety': 67.5, 'Support/Groups': 90.0, 'General Housing': 60.0, 'Safe Housing': 60.0, 'Subsidized Housing': 60.0, 'Low-Income Housing': 60.0, 'Housing Rights': 60.0, 'Finding Housing': 60.0, 'Transitional Housing for Women': 60.0}
+ eligibilities: ['Domestic Violence Survivors', 'Women', 'Young Adults (18-27 years old)', 'I am a Senior', 'Young Adults (18-27 years old)', 'Children (0-13 years old)', 'Domestic Violence Survivors', 'Women', 'Young Adults (18-27 years old)', 'I am a Senior', 'Young Adults (18-27 years old)', 'Children (0-13 years old)', 'Homeless', 'Anyone in Need']
  current_task: recommend
-==========
-
-
-=========
-State: 
- super categories: {'Homelessness': 70, 'Substance Abuse': 60, 'Support': 40, 'Family': 80, 'Health': 70, 'Housing': 60}
- categories:
-              {'General Family': 90.0, 'Family with kids': 90.0, 'Job Placement Support': 60.0, 'Family Counseling': 90.0, 'Family Shelters': 60.0, 'Family Planning': 60.0, 'Family Legal Services': 60.0}
- eligibilities: ['Near Homeless', 'Home Renters', 'Near Homeless', 'Home Renters', 'San Francisco Residents', 'Low-Income', 'Low-Income']
- current_task: qa
 ==========
 
